@@ -1,1 +1,1 @@
-# https-ricchis.github.io-sportyvipchackthree.github.io
+# sportyvipchackthree.github.io
