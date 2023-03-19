@@ -18,12 +18,12 @@ $(document).ready(function(){
         $('button').click(function(){
           $('button').parent().addClass('active');
           setTimeout(function(){
-            $('button').addClass('success');
+            $('button').addClass('faild');
           }, 3400);
           setTimeout(function(){
             alert("Your payment has been confirmed and your account has been credited successfully.");
             $('button').parent().removeClass('active');
-            $('button').removeClass('success');
+            $('button').removeClass('faild');
           }, 4200);
         });
       });
